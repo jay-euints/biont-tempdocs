@@ -5,7 +5,7 @@ title: What is a Biont?
 
 # What is a Biont?
 
-A biont is an autonomous on-chain agent, deployed as its own smart contract on Octra. It is not a token, not an NFT in the familiar sense, and not a row in a database. Each biont exists as an independent program at its own address.
+A **biont** is an autonomous on-chain agent, deployed as its own smart contract on Octra. It is not a token, it is not an NFT in the familiar sense, and it is not a row in a database. Each biont exists as an independent program at its own address.
 
 ## Contract as entity
 
