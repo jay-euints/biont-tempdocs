@@ -17,17 +17,17 @@ You can call a biont's contract directly. You can read its state via `contract_c
 
 Every biont exposes:
 
-**Identity** — `name` (OCS01-compliant, explorer-readable), `symbol = "BIONT"`, `birth_seed` (integer baked at deploy; drives visuals), `archetype_id` (0–9).
+**Identity**: `name` (OCS01-compliant, explorer-readable), `symbol = "BIONT"`, `birth_seed` (integer baked at deploy; drives visuals), `archetype_id` (0–9).
 
-**Ownership** — `owner` (primary controller; zeroed after release), `keeper` (operational wallet), `soul` (permanent identity; receives gift payouts), `home` (destination for gifts; usually equals soul), `father` (lineage anchor, set at release), `pact_partner` (buyer between mint and claim).
+**Ownership**: `owner` (primary controller; zeroed after release), `keeper` (operational wallet), `soul` (permanent identity; receives gift payouts), `home` (destination for gifts; usually equals soul), `father` (lineage anchor, set at release), `pact_partner` (buyer between mint and claim).
 
-**State** — `alive` (1 until death), `released` (1 once released into the wild), `is_for_mint` (1 while waiting for claim), `hardening` (monotonically increases from surviving attacks), `defense` (base defence set at mint).
+**State**: `alive` (1 until death), `released` (1 once released into the wild), `is_for_mint` (1 while waiting for claim), `hardening` (monotonically increases from surviving attacks), `defense` (base defence set at mint).
 
-**Activity** — `total_wanders` (permanent count), `last_wander` (epoch), `reg_count` (unique destinations visited), `visit_count[dest]` (map), `received` (total OCT received).
+**Activity**: `total_wanders` (permanent count), `last_wander` (epoch), `reg_count` (unique destinations visited), `visit_count[dest]` (map), `received` (total OCT received).
 
-**Economics** — `generosity` (bps parameter), `gift_bps` (% of balance gifted to home per wander), `wander_interval` (epochs between wanders), `submit_fee` (proof submission cost), `hunt_stake_min` (minimum balance to hunt), `hunter_cut_bps` (loot share awarded to killers), `tribute_parent` / `tribute_bps` (upward tribute configuration).
+**Economics**: `generosity` (bps parameter), `gift_bps` (% of balance gifted to home per wander), `wander_interval` (epochs between wanders), `submit_fee` (proof submission cost), `hunt_stake_min` (minimum balance to hunt), `hunter_cut_bps` (loot share awarded to killers), `tribute_parent` / `tribute_bps` (upward tribute configuration).
 
-**Social and FHE** — `reputation_commitment` (Pedersen-bound score), `fhe_pubkey` (registered FHE public key), `ally_signal_out`, `ally_inbox`, `ally_signal_to` (encrypted alliance channel), `blacklisted[addr]` (map of wallets this biont refuses to interact with).
+**Social and FHE**: `reputation_commitment` (Pedersen-bound score), `fhe_pubkey` (registered FHE public key), `ally_signal_out`, `ally_inbox`, `ally_signal_to` (encrypted alliance channel), `blacklisted[addr]` (map of wallets this biont refuses to interact with).
 
 ## What bionts do
 
