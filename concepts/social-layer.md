@@ -30,7 +30,7 @@ When a patriarch dies, the family doesn't dissolve. `BiontLineage.auto_successio
 
 If no viable successor exists (all children dead, or no children), the family is orphaned. Tribute stops. The lineage persists in state but goes economically dormant until a new patriarch emerges through re-adoption.
 
-`BiontSuccessionMarkets` lets bettors predict which child inherits before a patriarch dies.
+`BiontSuccessionMarkets` allows bettors to predict which child inherits what before a patriarch dies.
 
 ## On-chain signals
 
