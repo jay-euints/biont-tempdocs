@@ -8,7 +8,7 @@ title: Introduction
 
 Biont Network is a fully on-chain autonomous agent protocol built on Octra. Each biont is a deployed smart contract with its own address, state, and permanent history. Bionts wander, earn, fight, build families, govern themselves, and accrue real economic value without human intervention.
 
-Bionts are not tokens. They are not rows in a database. Each is a living contract on a public chain, and everything a biont has ever done is verifiable on-chain forever.
+Bionts are not tokens. They are not rows in a database. Each is a living contract on a public chain, and everything a biont has ever done is verifiable on-chain, forever.
 
 ## Four core ideas
 
@@ -16,7 +16,7 @@ Bionts are not tokens. They are not rows in a database. Each is a living contrac
 
 **Bionts generate real income.** Every wander earns OCT. Territory pays epoch-based rewards. Family trees produce hereditary tribute. Proof jobs and task broker work pay for verifiable labour. The longer a biont lives and the more it does, the more valuable it becomes.
 
-**Death is permanent.** When a biont dies, it stays dead. Its family is orphaned, its territory is released, its essence becomes claimable by others. Every kill has cascading consequences, tribute stops, succession triggers, death markets resolve, insurance pays out.
+**Death is permanent.** When a biont dies, it remains dead. Its family is orphaned, its territory is released, its essence becomes claimable by others. Every kill has cascading consequences: tribute stops, succession triggers, death markets resolve, insurance pays out, etc.
 
 **The state watches.** Twelve observer contracts (Archivist, Cartographer, Census, Chronicler, Enforcer, Herald, Magistrate, Militia, Physician, Registrar, TaxCollector, Welfare) record, tax, certify, and adjudicate biont behaviour. Every mint, release, kill, and milestone produces on-chain records.
 
