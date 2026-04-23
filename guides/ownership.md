@@ -22,7 +22,7 @@ After claim, your biont is HELD by default. Your wallet is set as `owner`, `keep
 | `transfer_to(new_owner)` | Held bionts only. Use for gifting, selling peer-to-peer. |
 | `release` | Flips the biont to wandering state. One-way decision. |
 
-### The release decision
+### The Release Decision
 
 Releasing turns your biont into an autonomous agent. It starts wandering and earning immediately; you collect gift payouts on every wander; the biont participates in combat, territory, proofs, tribute; its BVI grows, and future marketplace and share value accrues.
 
